@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />
         <Route to="owner" component={() => { 
-          window.location.href = 'https://example.com/1234'; 
+          window.location.href = 'https://ddanilovic.github.io'; 
           return null;
         }}/>
       </Switch>
